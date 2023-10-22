@@ -1,0 +1,29 @@
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+  }
+
+.main_header{
+    width: 100%;
+    padding: 24px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_ul{
+    display: flex;
+    gap: 24px;
+
+}
+.header_action{
+    background-color: black;
+    color: #F3F3F3;
+    padding: 12px 24px;
+    border-radius: 32px ;
+}
+
+
+  .fa-bars{
+    display: none;
+  }
