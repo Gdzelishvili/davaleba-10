@@ -75,21 +75,22 @@ h1 {
   align-items: center;
   background: var(--Black, #000);
 }
-.sec2_cover {
+/* .sec2_cover {
   background: url(..//images/cover2.jpg);
   width: 503.5px;
   height: 400px;
   padding: 10px;
   object-fit: cover;
   background-repeat: no-repeat;
-}
 
-.sec2_text{
+} */
+
+.sec2_text {
   display: flex;
   flex-direction: column;
   row-gap: 16px;
-  width: 503,5px;
-
+  width: 503, 5px;
+  width: 100%;
 }
 
 .sec2_h4 {
@@ -98,9 +99,9 @@ h1 {
   font-size: 24px;
   font-style: normal;
   font-weight: 900;
-  line-height: 32px; 
+  line-height: 32px;
   letter-spacing: -0.1px;
-  width: 503,5px;
+  width: 503, 5px;
   width: 100%;
 }
 
@@ -110,8 +111,26 @@ h1 {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; 
+  line-height: 24px;
   letter-spacing: 0.1px;
-  width: 503,5px;
+  width: 503, 5px;
   width: 100%;
 }
+
+/* section 3 start */
+
+.section3 {
+  display: flex;
+  column-gap: 30px;
+  padding: 64px 150px;
+}
+
+.sec3_brand{
+  display: flex;
+ align-items: center;
+  column-gap: 16px;
+  margin-bottom: 16px;
+}
+
+/* footer start */
+
