@@ -1,6 +1,10 @@
 @media only screen and (max-width: 1024px){
-    .last_card{
-        display: none;
+    .section1{
+        flex-wrap: nowrap;
+    }
+
+
+
     }
 
 
@@ -14,8 +18,9 @@
 
 
 
-    
+
     @media only screen and (max-width: 744px){
-        .last_card{
-            display: none;
+        
+
+
         }
