@@ -9,5 +9,12 @@
     .fa-bars {
         display: initial ;
       }
+      /* section start */
+
+
+      .sec1_pic {
+        width: calc(327 / 375 * 100%);
+        margin: 0 24px;
+      }
     
     }
