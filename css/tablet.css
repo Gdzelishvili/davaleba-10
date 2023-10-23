@@ -44,12 +44,18 @@
   }
 }
 
+
+
+
+/* 744 */
+
 @media only screen and (max-width: 744px) {
 
     /* headers  */
   .main_header {
     padding: 24px;
   }
+  
 
   /*  section 1 */
   
@@ -60,6 +66,10 @@
   h1 {
     font-size: 40px;
     line-height: 48.5px;
+  }
+  .sec1_pic {
+    width: calc(696 / 744 * 100%);
+    margin-top: 0 ;
   }
 
   /* section 2  */
