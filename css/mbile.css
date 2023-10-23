@@ -2,6 +2,7 @@
     /* header */
     .main_header{
         padding: 20px 24px;
+        
     }
     .header_nav, .dis{
         display: none;
@@ -16,5 +17,34 @@
         width: calc(327 / 375 * 100%);
         margin: 0 24px;
       }
+
+      /* section 2 */
+      .section2{
+        row-gap: 14px;
+      }
     
+      .sec2_img{
+        width: calc(327 / 375 * 100%);
+        
+      }
+      .sec2_text{
+        row-gap: 14px;
+
+      }
+
+      /* section 3 start */
+
+      .sec3_div{
+        padding: 24px;
+      }
+      .sec3_brand{
+        row-gap: 10px;
+
+      }
+      
+
+
+
+
+
     }
