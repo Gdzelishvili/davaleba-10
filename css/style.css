@@ -31,10 +31,18 @@
 /* section 1 start */
 
 .section1 {
-  width: 100%;
   display: flex;
-  padding: 64px 165px;
+  justify-content: center;
+  padding: 64px 0;
   column-gap: 130px;
+}
+.sec1_text{
+  width: 490px;
+}
+.sec1_pic {
+  width: 490px;
+  height: 400px;
+  object-fit: cover;
 }
 
 h1 {
@@ -63,17 +71,24 @@ h1 {
 .section2 {
   width: 100%;
   display: flex;
-  padding: 96px 150px;
+  padding: 96px 0;
   column-gap: 133px;
+  justify-content: center;
   align-items: center;
   background: var(--Black, #000);
+}
+.sec2_img{
+  width: 503.3px;
+  height: 400px;
+  object-fit: cover;
+  
 }
 
 .sec2_text {
   display: flex;
   flex-direction: column;
   row-gap: 16px;
-  width: 100%;
+  width: 503.3px;
 }
 
 .sec2_h4 {
@@ -84,7 +99,6 @@ h1 {
   font-weight: 900;
   line-height: 32px;
   letter-spacing: -0.1px;
-  width: 100%;
 }
 
 .sec2_p {
@@ -95,16 +109,19 @@ h1 {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.1px;
-  width: 503, 5px;
-  width: 100%;
+  
 }
 
 /* section 3 start */
 
 .section3 {
   display: flex;
+  justify-content: center;
   column-gap: 30px;
-  padding: 64px 150px;
+  padding: 64px 0;
+}
+.sec3_div{
+  width: 360px;
 }
 
 .sec3_brand {
@@ -119,9 +136,9 @@ h1 {
 .footer_main {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  
   background-color: #000000;
-  padding: 96px 150px;
+  padding: 96px calc(150 / 1440 * 100%);
 }
 
 .brand_t {
@@ -135,14 +152,13 @@ h1 {
   text-transform: uppercase;
 }
 .footer_links_division {
-  display: flex;
+  display: inline-flex;
   column-gap: 80px;
 }
 
 .footer_links {
   display: flex;
   flex-direction: column;
-  height: 156px;
 }
 .footer_text1 {
   color: #fff;
@@ -150,7 +166,7 @@ h1 {
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; /* 150% */
+  line-height: 24px; 
   letter-spacing: 0.1px;
   margin-bottom: 16px;
 }
@@ -160,11 +176,10 @@ h1 {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px; 
 }
 .footer_sub{
-  display: flex;
-  flex-direction: column;
+  width: 214px;
 
 }
 
@@ -174,7 +189,6 @@ h1 {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px; 
   opacity: 0.4;
-  width: 214px;
 }

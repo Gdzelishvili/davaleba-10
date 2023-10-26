@@ -1,4 +1,4 @@
-@media only screen and (max-width: 480px){
+@media (max-width: 480px){
     /* header */
     .main_header{
         padding: 20px 24px;
@@ -8,14 +8,13 @@
         display: none;
     }
     .fa-bars {
-        display: initial ;
+        display: block ;
       }
       /* section start */
 
 
       .sec1_pic {
-        width: calc(327 / 375 * 100%);
-        margin: 0 24px;
+        height: 240px;
       }
 
       /* section 2 */
@@ -41,8 +40,16 @@
         row-gap: 10px;
 
       }
-      
+      /* footer */
+      .footer_main {
+        padding: 24px;
+      }
 
+.footer_links_division{
+  column-gap: 0;
+  width: 100%;
+  justify-content: space-between;
+}
 
 
 
